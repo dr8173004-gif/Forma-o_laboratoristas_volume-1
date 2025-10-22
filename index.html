@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portal Interativo – Ensaios de Solos (Volume 1)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body{margin:0;font-family:'Open Sans',sans-serif;background:#f6f8fb;color:#1b1f23;line-height:1.6;}
+    header{position:sticky;top:0;background:#013C5A;color:white;padding:12px 20px;font-family:Montserrat,sans-serif;z-index:10;}
+    section{max-width:1100px;margin:24px auto;background:white;padding:24px;border-radius:16px;box-shadow:0 4px 20px rgba(0,0,0,0.08);}
+    h2{color:#013C5A;font-family:Montserrat,sans-serif;margin-top:0;}
+    .step{margin-bottom:12px;padding:12px;border:1px dashed #013C5A;border-radius:12px;}
+    .step strong{color:#013C5A;}
+    .note{background:#fff9e6;border:1px solid #ffe5a3;border-radius:12px;padding:12px;margin-top:16px;}
+    .actions{display:flex;justify-content:space-between;margin-top:24px;}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:12px;font-weight:700;text-decoration:none;cursor:pointer;}
+    .btn-prev{background:#eef4f7;color:#013C5A;}
+    .btn-next{background:#28a745;color:white;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Módulo 2 — Granulometria (NBR 7181)</h1>
+  </header>
+
+  <section id="peneiramento">
+    <h2>Parte A — Peneiramento (≥ 2,0 mm)</h2>
+    <p><strong>Objetivo:</strong> Determinar a distribuição das partículas grossas do solo conforme a NBR 7181.</p>
+    <div class="step"><strong>1️⃣ Secagem:</strong> Seque 1 kg da amostra até massa constante.</div>
+    <div class="step"><strong>2️⃣ Pesagem inicial:</strong> Pese e anote cada peneira antes de usar (tare).</div>
+    <div class="step"><strong>3️⃣ Montagem:</strong> Organize o jogo de peneiras da maior (50 mm) até 2 mm.</div>
+    <div class="step"><strong>4️⃣ Peneiramento:</strong> Agite mecanicamente por tempo adequado (≈ 10 min).</div>
+    <div class="step"><strong>5️⃣ Pesagem final:</strong> Pese novamente cada peneira com material retido.</div>
+    <div class="note"><strong>Cálculo:</strong> % retida = (retido / total)×100; % passante = 100 − retida acumulada.</div>
+  </section>
+
+  <section id="sedimentacao">
+    <h2>Parte B — Sedimentação (≤ 2,0 mm)</h2>
+    <p><strong>Objetivo:</strong> Analisar a fração fina do solo com densímetro, seguindo a NBR 7181.</p>
+    <div class="step"><strong>1️⃣ Solução defloculante:</strong> Misture hexametafosfato + carbonato até pH 8–9.</div>
+    <div class="step"><strong>2️⃣ Imersão:</strong> Deixe o solo em repouso 12–24 h.</div>
+    <div class="step"><strong>3️⃣ Dispersão:</strong> Agite em dispersor ≈ 15 min.</div>
+    <div class="step"><strong>4️⃣ Proveta:</strong> Transfira a suspensão, lave o béquer e complete até 1 L.</div>
+    <div class="step"><strong>5️⃣ Leituras:</strong> Registre densidade e temperatura nos tempos padrão.</div>
+    <div class="note"><strong>Curva final:</strong> Converta as leituras em % passante por diâmetro equivalente e una à curva do peneiramento.</div>
+    <div class="actions">
+      <a class="btn btn-prev" href="#mod1">Voltar</a>
+      <a class="btn btn-next" href="#mod3">Avançar</a>
+    </div>
+  </section>
+</body>
+</html>
